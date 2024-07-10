@@ -1,0 +1,344 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para a barra de navegação */
+.navbar {
+    background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #6A5ACD; /* Azul Roxeado */
+    color: white;
+}
+
+/* Estilo para os botões do Bootstrap */
+.btn-primary {
+    background-color: #6A5ACD; /* Azul Roxeado */
+    border-color: #6A5ACD; /* Azul Roxeado */
+}
+
+.btn-primary:hover {
+    background-color: #483D8B; /* Azul Roxo mais escuro */
+    border-color: #483D8B; /* Azul Roxo mais escuro */
+}
+
+/* Estilo para os títulos */
+h1, h2, h3 {
+    color: white;
+}
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para a barra de navegação */
+.navbar {
+    background-color: #121212; /* Azul Escuro quase Preto */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #121212; /* Azul Escuro quase Preto */
+    color: white;
+}
+
+/* Estilo para a imagem circular */
+.img-fluid {
+    border-radius: 50%;
+    max-width: 200px; float: 
+    left; margin-right: 20px
+}
+section {
+    margin-bottom: 180px; /* Adiciona espaçamento entre as seções */
+}
+/* Estilo para os links nas imagens redirecionáveis */
+.img-fluid a {
+    text-decoration: none;
+}
+
+/* Estilo para os títulos no corpo da página */
+h1, h2, h3 {
+    color: black;
+}
+
+/* Estilo para a seção "Quem Eu Sou" */
+section:nth-child(odd) {
+    background-color: #f8f9fa; /* Fundo cinza claro */
+}
+
+/* Estilo para a seção "Projetos" */
+section:nth-child(even) {
+    background-color: white;
+}
+
+/* Estilo para os vídeos no carrossel */
+.carousel-item iframe {
+    max-width: 100%;
+    height: 300px; /* Ajuste a altura conforme necessário */
+}
+
+/* Estilo para a seção de habilidades */
+h3 {
+    color: #6A5ACD; /* Azul Roxeado para os títulos de habilidades */
+}
+/* Estilo para o cabeçalho de tela cheia */
+.header-hero {
+    background-color: #121212; /* Azul Escuro quase Preto */
+    color: white;
+    height: 100vh; /* 100% da altura da viewport */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilo para as seções (inicialmente escondidas) */
+section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Estilo para quando a seção estiver visível */
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* Estilo para o cabeçalho encolhido e fixo */
+.header-fixed {
+    background-color: #121212; /* Azul Escuro quase Preto */
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+/* Estilo para os botões do cabeçalho */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Estilo para a foto de perfil circular */
+.profile-image {
+    border-radius: 50%;
+    width: 40px; /* Tamanho da imagem circular */
+    height: 40px; /* Tamanho da imagem circular */
+}
+
+/* Estilo para os links de navegação */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #6A5ACD; /* Azul Roxeado (hover) */
+}
+/* Estilo para a seção de projetos */
+#projects {
+
+    white-space: nowrap; /* Impedir quebras de linha */
+}
+
+/* Estilo para o contêiner dos projetos */
+.project-container {
+    display: inline-block; /* Faz com que os projetos fiquem em linha */
+    width: auto; /* Tamanho automático para acomodar todos os projetos */
+    margin-bottom: 20px; /* Espaçamento inferior entre os projetos */
+}
+/* Estilo para as setas de navegação personalizadas */
+.custom-prev-icon, .custom-next-icon {
+    background-color: black; /* Cor preta para as setas */
+    color: white; /* Cor do ícone */
+    border-radius: 50%; /* Ícone circular */
+    position: absolute; /* Posicionamento absoluto */
+    top: 50%; /* Centralizado verticalmente */
+    transform: translateY(-50%); /* Ajuste de posicionamento vertical */
+    width: 40px; /* Tamanho das setas */
+    height: 40px; /* Tamanho das setas */
+    display: flex; /* Centralização horizontal */
+    justify-content: center; /* Centralização horizontal */
+    align-items: center; /* Centralização horizontal */
+    opacity: 0.7; /* Opacidade inicial das setas */
+    transition: opacity 0.3s ease; /* Transição suave da opacidade */
+}
+
+
+/* Estilo para a seta da esquerda (prev) */
+.carousel-control-prev {
+    left: -105px; /* Ajuste para mover para mais perto da borda esquerda */
+}
+
+/* Estilo para a seta da direita (next) */
+.carousel-control-next {
+    right: -25px; /* Ajuste para mover para mais perto da borda direita */
+}
+
+/* Estilo para as setas de navegação ao passar o mouse */
+.custom-prev-icon:hover, .custom-next-icon:hover {
+    opacity: 1; /* Aumenta a opacidade ao passar o mouse */
+}
+
+/* Estilo para os ícones de habilidades */
+.skill-icon {
+    width: 52px; /* Largura fixa */
+    height: 52px; /* Altura fixa */
+    margin: 10px; /* Espaçamento ao redor dos ícones */
+}
+
+/* Estilo para alinhar os ícones de habilidades */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Estilo para o rodapé */
+.footer {
+    background-color: #121212; /* Azul Escuro quase Preto */
+    color: white;
+    padding: 20px 0;
+}
+
+.footer h5 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #6A5ACD; /* Azul Roxeado */
+}
+
+.footer .form-group {
+    margin-bottom: 15px;
+}
+
+.footer .form-control {
+    background-color: #333;
+    border: none;
+    color: white;
+}
+
+.footer .form-control::placeholder {
+    color: #ccc;
+}
+
+.footer .btn-primary {
+    background-color: #6A5ACD; /* Azul Roxeado */
+    border-color: #6A5ACD; /* Azul Roxeado */
+}
+
+.footer .btn-primary:hover {
+    background-color: #483D8B; /* Azul Roxo mais escuro */
+    border-color: #483D8B; /* Azul Roxo mais escuro */
+}
+
+.footer .text-center {
+    margin-top: 20px;
+}
+/* Estilo para o chat box */
+#chatBox {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: none; /* Inicialmente escondido */
+    flex-direction: column;
+}
+
+/* Estilo para o cabeçalho do chat */
+#chatHeader {
+    background-color: #202020;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para o conteúdo do chat */
+#chatContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para as mensagens do chat */
+#chatMessages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+/* Estilo para a entrada de texto do chat */
+#chatInput {
+    border: none;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+
+/* Estilo para o ícone do chat minimizado */
+#chatMinimized {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    background-color: #202020;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+/* Estilo para o ícone de minimizar */
+#chatMinimize {
+    cursor: pointer;
+}

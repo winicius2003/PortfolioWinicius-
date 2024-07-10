@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winícius Souza - Portfolio</title>
+    <!-- Adicione os links para os arquivos CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Adicione o link para sua folha de estilo personalizada -->
+    <link rel="stylesheet" href="assents/seu-estilo.css">
+    <!-- Adicione o link para a biblioteca FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-6GKm5O6l5z47WBm8wcrp6MvYY9GGBvXRkE6h4SspO+6ay+7v/yz3y9l4Qd+iJ8p/I" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/winicius-souza-7a3997222/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/winicius2003" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/seu-instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jwinicius.souza@gmail.com"><i class="far fa-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção de cabeçalho -->
+    <header class="header-hero">
+        <div class="container">
+            <img src="assents/img/wini.jpg" alt="Winícius Souza" class="img-fluid">
+            <h1 class="display-4" style="color: white;">Winícius Souza</h1>
+            <p class="lead" id="quem-sou-eu">Bem-vindo ao meu portfólio. Aqui você verá um pouco do meu trabalho como desenvolvedor de software.</p>
+        </div>
+    </header>
+    <header class="header-fixed">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="#expandir-quem-sou-eu" class="nav-link">Sobre</a>
+                <a href="#projects" class="nav-link">Projetos</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </div>
+        </div>
+    </header>
+    <!-- Seção "Quem Sou Eu" (Expansível) -->
+    <section class="py-5" id="expandir-quem-sou-eu">
+        <div class="container">
+            <h2 style="color: black;">Quem Sou Eu</h2>
+            <p>Olá, sou Winicius, natural de João Pessoa, Paraíba. Minha jornada na programação começou em 2017 como uma simples curiosidade, que rapidamente se transformou em uma paixão. Em 2023, iniciei minha graduação em Análise e Desenvolvimento de Sistemas. Meu foco é o desenvolvimento back-end, onde construo sistemas sólidos e eficientes nos bastidores. A programação é minha maneira de criar o futuro com linhas de código. Estou empolgado para continuar minha jornada como desenvolvedor back-end, resolvendo desafios e impulsionando a inovação.</p>
+        </div>
+    </section>
+
+    <!-- Seção de imagens redirecionáveis -->
+<!-- Seção Projetos -->
+<!-- Seção Projetos -->
+<section id="projects">
+    <div class="container">
+        <h2 style="color: black;">Projetos</h2>
+        <div id="project-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+            <!-- Itens do carrossel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <a href="pagina1.html">
+                                <img src="assents/img/cb.jpg" alt="Projeto 1" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <a href="pagina2.html">
+                                <img src="assents/img/rf.jpg" alt="Projeto 2" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <a href="pagina3.html">
+                                <img src="assents/img/pf.jpg" alt="Projeto 3" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <a href="pagina4.html">
+                                <img src="assents/img/ws.png" alt="Projeto 4" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <a href="pagina5.html">
+                                <img src="assents/img/cr.jpg" alt="Projeto 5" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <a href="pagina5.html">
+                                <img src="assents/img/cr.jpg" alt="Projeto 5" class="img-fluid">
+                            </a>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Setas de navegação personalizadas -->
+            <a class="carousel-control-prev" href="#project-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon custom-prev-icon"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#project-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon custom-next-icon"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Seção de habilidades -->
+    <section class="py-5">
+        <div class="container">
+            <h2>Habilidades</h2>
+            
+            <div class="row skills-container">
+                <div class="col-md-4">
+                    <img src="assents/img/pt.png" alt="Python Icon" class="skill-icon">
+                    <!-- Adicione sua descrição de habilidades Python aqui -->
+                </div>
+
+                <div class="col-md-4">
+                    <img src="assents/img/java.png" alt="HTML/JS/CSS Icon" class="skill-icon">
+                    <!-- Adicione sua descrição de habilidades HTML/JS/CSS aqui -->
+                </div>
+                <div class="col-md-4">
+                    <img src="assents/img/php.png" alt="HTML/JS/CSS Icon" class="skill-icon">
+                    <!-- Adicione sua descrição de habilidades HTML/JS/CSS aqui -->
+                </div>
+                <div class="col-md-4">
+                    <img src="assents/img/react.png" alt="HTML/JS/CSS Icon" class="skill-icon">
+                    <!-- Adicione sua descrição de habilidades HTML/JS/CSS aqui -->
+                </div>
+                <div class="col-md-4">
+                    <img src="assents/img/js.png" alt="HTML/JS/CSS Icon" class="skill-icon">
+                    <!-- Adicione sua descrição de habilidades HTML/JS/CSS aqui -->
+                </div>
+                
+                <div class="col-md-4">
+                    <img src="assents/img/html-5.png" alt="HTML/JS/CSS Icon" class="skill-icon">
+                    <!-- Adicione sua descrição de habilidades HTML/JS/CSS aqui -->
+                </div>
+
+                <div class="col-md-4">
+                    <img src="assents/img/css.png" alt="HTML/JS/CSS Icon" class="skill-icon">
+                    <!-- Adicione sua descrição de habilidades HTML/JS/CSS aqui -->
+
+                </div>
+                <div class="col-md-4">
+                    <img src="assents/img/git.png" alt="HTML/JS/CSS Icon" class="skill-icon">
+                    <!-- Adicione sua descrição de habilidades HTML/JS/CSS aqui -->
+                </div>
+
+                <div class="col-md-4">
+                    <img src="assents/img/sql.png" alt="SQL Icon" class="skill-icon">
+                    <!-- Adicione sua descrição de habilidades SQL aqui -->
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Chat Box -->
+    <div id="chatBox">
+        <div id="chatHeader">
+            Chat
+            <span id="chatMinimize" onclick="toggleChat()">-</span>
+        </div>
+        <div id="chatContent">
+            <div id="chatMessages"></div>
+            <input type="text" id="chatInput" placeholder="Digite sua mensagem..." onkeypress="checkEnter(event)">
+        </div>
+    </div>
+
+<!-- Chat Minimized Icon -->
+    <div id="chatMinimized" onclick="toggleChat()">Chat</div>
+
+ <!-- Rodapé -->
+<footer class="footer bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Navegação</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#expandir-quem-sou-eu" class="nav-link text-white">Sobre</a></li>
+                    <li><a href="#projects" class="nav-link text-white">Projetos</a></li>
+                    <li><a href="#contact" class="nav-link text-white">Contato</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h5>Contato</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.linkedin.com/seu-linkedin" target="_blank" class="text-white"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://github.com/seu-github" target="_blank" class="text-white"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="https://www.instagram.com/seu-instagram" target="_blank" class="text-white"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+                <form action="mailto:seu-email@gmail.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="email">Envie um e-mail:</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <p>&copy; 2024 Winícius Souza. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+   
+    <!-- Scripts Bootstrap e JavaScript personalizado -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assents/seu-script.js"></script>    
+</body>
+</html>
